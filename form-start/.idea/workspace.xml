@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e61927e-0cc8-492a-a6d1-bcf1be0f7f3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../exception/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/ExceptionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/WebServerCustomizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/api/ApiExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/api/ApiExceptionV2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/api/ApiExceptionV3Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/exception/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/exhandler/ErrorResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/exhandler/advice/ExControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/filter/LogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/interceptor/LogInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/resolver/MyHandlerExceptionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/resolver/UserHandlerExceptionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/servlet/ErrorPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/java/hello/exception/servlet/ServletExController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/templates/error-page/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/templates/error-page/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/templates/error/4xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/main/resources/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exception/src/test/java/hello/exception/ExceptionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/itemservice/web/form/FormItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/domain/item/DeliveryCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/domain/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/domain/item/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/domain/item/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/web/form/FormItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/java/hello/itemservice/web/form/FormItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/resources/templates/form/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/resources/templates/form/addForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/resources/templates/form/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/resources/templates/form/editForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/src/main/resources/templates/form/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../form/src/main/resources/templates/form/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/domain/item/SaveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/domain/item/UpdateCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/web/item/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/web/item/form/ItemSaveForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/java/hello/login/web/item/form/ItemUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/errors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/templates/items/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/templates/items/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/templates/items/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/main/resources/templates/items/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/test/java/hello/login/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/test/java/hello/login/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/test/java/hello/login/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/test/java/hello/login/validation/BeanValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-start/src/test/java/hello/login/validation/MessageCodesResolverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/item/SaveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/item/UpdateCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/login/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/domain/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/SessionConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/argumentresolver/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/argumentresolver/LoginMemberArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/filter/LogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/filter/LoginCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/interceptor/LogInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/interceptor/LoginCheckInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/item/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/item/form/ItemSaveForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/item/form/ItemUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/login/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/login/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/member/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/session/SessionInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/hello/login/web/session/SessionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/errors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/items/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/items/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/items/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/items/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/login/loginForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/loginHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/templates/members/addMemberForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/hello/login/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/hello/login/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/hello/login/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/hello/login/validation/BeanValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/hello/login/validation/MessageCodesResolverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/hello/login/web/session/SessionManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/java/hello/itemservice/web/message/MessageItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/templates/message/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/templates/message/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/templates/message/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/main/resources/templates/message/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message-start/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/java/hello/itemservice/web/message/MessageItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/templates/message/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/templates/message/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/templates/message/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/main/resources/templates/message/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/java/hello/thymeleaf/ThymeleafBasicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/java/hello/thymeleaf/basic/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/java/hello/thymeleaf/basic/TemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/basic-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/condition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/each.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/literal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/operation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/text-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/text-unescaped.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/basic/variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/template/fragment/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/template/fragment/fragmentMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/template/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/template/layout/layoutMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/template/layoutExtend/layoutExtendMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/main/resources/templates/template/layoutExtend/layoutFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-basic/src/test/java/hello/thymeleaf/ThymeleafBasicApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/TypeconverterApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/controller/ConverterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/controller/FormatterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/converter/IntegerToStringConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/converter/IpPortToStringConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/converter/StringToIntegerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/converter/StringToIpPortConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/formatter/MyNumberFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/java/hello/typeconverter/type/IpPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/resources/templates/converter-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/resources/templates/converter-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/resources/templates/formatter-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/main/resources/templates/formatter-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/test/java/hello/typeconverter/TypeconverterApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/test/java/hello/typeconverter/converter/ConversionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/test/java/hello/typeconverter/converter/ConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/test/java/hello/typeconverter/formatter/FormattingConversionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typeconverter/src/test/java/hello/typeconverter/formatter/MyNumberFormatterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/UploadApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/controller/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/controller/ItemForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/controller/ServletUploadControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/controller/ServletUploadControllerV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/controller/SpringUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/domain/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/domain/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/domain/UploadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/java/hello/upload/file/FileStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/resources/templates/item-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/resources/templates/item-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/main/resources/templates/upload-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload/src/test/java/hello/upload/UploadApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/templates/validation/v1/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/templates/validation/v1/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/templates/validation/v1/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/main/resources/templates/validation/v1/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation-start/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/domain/item/SaveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/domain/item/UpdateCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/ItemValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/ValidationItemApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/form/ItemSaveForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/java/hello/itemservice/web/validation/form/ItemUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/errors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v1/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v1/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v1/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v1/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v2/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v2/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v2/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v2/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v3/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v3/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v3/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v3/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v4/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v4/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v4/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/main/resources/templates/validation/v4/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/test/java/hello/itemservice/validation/BeanValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation/src/test/java/hello/itemservice/validation/MessageCodesResolverTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vdyKXwVwULkcB2WHDRivuhIWOO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="form.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e61927e-0cc8-492a-a6d1-bcf1be0f7f3c" name="Default Changelist" comment="" />
+      <created>1626906196644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626906196644</updated>
+      <workItem from="1626906198777" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
