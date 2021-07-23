@@ -1,4 +1,4 @@
-package hello.itemservice.message;
+package hello.itemservice.domain;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -19,7 +19,7 @@ public class MessageSourceTest {
 
     @Test
     void helloMessage() {
-        String result = ms.getMessage("hello", null, null);
+        final String result = ms.getMessage("hello", null, null);
         assertThat(result).isEqualTo("안녕");
     }
 
@@ -31,13 +31,13 @@ public class MessageSourceTest {
 
     @Test
     void notFoundMessageCodeDefaultMessage() {
-        String result = ms.getMessage("no_code", null, "기본 메시지", null);
+        final String result = ms.getMessage("no_code", null, "기본 메시지", null);
         assertThat(result).isEqualTo("기본 메시지");
     }
 
     @Test
     void argumentMessage() {
-        String message = ms.getMessage("hello.name", new Object[]{"Spring"}, null);
+        final String message = ms.getMessage("hello.name", new Object[]{"Spring"}, null);
         assertThat(message).isEqualTo("안녕 Spring");
     }
 
